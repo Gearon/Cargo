@@ -1,5 +1,10 @@
 package lab.interrupt;
 
+/**
+ *	There is no blocking method in worker thread. No interrupt exception will be thrown.
+ *  However, the interrupt status will be set to true when the worker thread's interrupt method is called.
+ *  The status can be checked inside the worker thread to terminate gracefully 
+ */
 public class InterruptNormalMethod {
 
 	public static void main(String args[]){

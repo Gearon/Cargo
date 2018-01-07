@@ -1,5 +1,9 @@
 package lab.interrupt;
 
+/**
+ * The sleep method in Thread is blocking method. The interrupt exception will be thrown when interrupt it
+ *
+ */
 public class InterruptBlockingMethod {
 
 	public static void main(String args[]) {
